@@ -1,0 +1,20 @@
+h1{
+    font-size: 50px;
+}
+section{
+    display: flex;
+    margin: 20px;
+    padding: 10px 40px;
+}
+.meser{
+    width: 50%;
+}
+.meser img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,red);
+    padding: 10px 40px;
+}
+
