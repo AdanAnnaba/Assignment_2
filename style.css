@@ -45,6 +45,7 @@ section{
     width: 150px;
 }
 footer{
+    width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #130f40;
     color: antiquewhite;
