@@ -53,11 +53,9 @@ footer{
     padding: 1px;
 }
 p{
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
 }
-.measure_bg{
-    position: absolute;
-    background-image: url(/image/sp.png);
-}
+
 
 
