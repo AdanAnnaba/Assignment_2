@@ -46,13 +46,11 @@ section{
     width: 100px;
 }
 footer{
-    width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #130f40;
+    background-color: black;
     color: antiquewhite;
     text-align: center;
     padding: 1px;
-    border-radius: 10px;
 }
 p{
     font-family:Georgia, 'Times New Roman', Times, serif;
