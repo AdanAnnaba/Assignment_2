@@ -46,11 +46,13 @@ section{
 }
 footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: black;
+    background-color: #130f40;
     color: antiquewhite;
     text-align: center;
     padding: 1px;
 }
-
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
 
 
