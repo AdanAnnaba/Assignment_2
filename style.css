@@ -7,7 +7,7 @@ h1{
 }
 section{
     display: flex;
-    margin: 15px;
+    margin: 30px;
     padding: 10px 40px;
 }
 .measure{
@@ -32,8 +32,6 @@ section{
     margin-left: 50px;
     padding: 15px;
     border-radius: 10px;
-   
-
 }
 .box{
     display: flex;
@@ -49,5 +47,6 @@ footer{
     text-align: center;
     padding: 1px;
 }
+
 
 
