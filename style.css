@@ -17,11 +17,11 @@ section{
     padding: 35px;
 }
 .measure img{
-    width: 80%;
+    width: 85%;
 }
 .button{
     text-decoration: none;
-    background-image: linear-gradient(tomato,red);
+    background-image: linear-gradient(rgb(236, 210, 205),red);
     padding: 10px 40px;
     color: antiquewhite;
 }
@@ -30,8 +30,8 @@ section{
     padding-left: 10px;
 }
 .card{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     margin-left: 50px;
     padding: 20px;
     border-radius: 10px;
@@ -41,8 +41,8 @@ section{
     padding: 25px;
 }
 .card img{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
 }
 footer{
     width: 100%;
@@ -54,6 +54,10 @@ footer{
 }
 p{
     font-family:Georgia, 'Times New Roman', Times, serif
+}
+.measure_bg{
+    position: absolute;
+    background-image: url(/image/sp.png);
 }
 
 
