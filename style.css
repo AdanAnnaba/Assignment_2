@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: AAAAAA;
 }
 .products{
     display: flex;
@@ -10,6 +11,9 @@ body{
     justify-content: space-between;
     padding: 50px;
     margin-left: 3px;
+}
+h1{
+    font-size: 3em;
 }
 .list li{
     display:inline-flex;
@@ -36,7 +40,6 @@ body{
 .top-sub{
     margin-left: 25px;
 }
-}
 .top-sub img{
     Width: 440px;
     Height: 414px;
@@ -48,4 +51,12 @@ body{
     height: 110px;
     width: 1110px;
     border: 1px solid whitesmoke;
+    margin-left: 120px;
+}
+h3{
+    text-align: center;
+}
+.middle{
+    border: 1px solid whitesmoke;
+    background-color: #FFFFFF;
 }
