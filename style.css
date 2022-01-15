@@ -231,9 +231,11 @@ footer{
   @media (max-width: 576px) {
     .hidden {
         display: grid;
-position: relative;
+        justify-content: space-between;
+        position: relative;
         width: 100%;
         justify-content: left;
+        margin-bottom: 150px;
 
     }
   }
