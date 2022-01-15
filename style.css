@@ -195,14 +195,27 @@ footer{
 .fa-shopping-cart{
     margin-left: 15px;
 }
-@media only screen and (max-width: 576px) {
+
+
+@media (max-width: 576px) {
     .top {
-        grid-template-columns: repeat(1fr);
+      display: grid;
+      grid-template-columns: 1fr;
+
     }
   }
-  @media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
+    .creative {
+      display: grid;
+      grid-template-columns: 1fr;
+
+    }
+  }
+@media (max-width: 576px) {
     .photo {
-        grid-template-columns: repeat(1fr);
+      display: grid;
+      grid-template-columns: 1fr;
+
     }
   }
 
