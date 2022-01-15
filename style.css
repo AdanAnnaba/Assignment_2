@@ -228,5 +228,14 @@ footer{
 
     }
   }
+  @media (max-width: 576px) {
+    .hidden {
+        display: grid;
+position: relative;
+        width: 100%;
+        justify-content: left;
+
+    }
+  }
 
 
