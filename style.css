@@ -10,10 +10,9 @@ main{
 }
 .products{
     display: flex;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
+    padding: 20px;
     margin-left: 3px;
 }
 h1{
@@ -31,7 +30,12 @@ a{
     display:inline-flex;
     list-style: none; 
     margin-left: 35px;  
+    text-transform: uppercase;
 }
+.list li:hover{
+    background-color: #55efc4;
+}
+
 .button1{
     height: 25px;
     width: 50px;
@@ -39,7 +43,7 @@ a{
     background-color: #E02C6D;
     border-radius: 35px;
     color: antiquewhite;
-    margin: 10px;
+    margin-top: 50px;
     padding: 10px;
     text-decoration: none;
 }
@@ -51,10 +55,15 @@ a{
 .top-sub{
     margin-left: 25px;  
 }
+.top-sub p{
+    margin-bottom: 50px;  
+}
 .top-sub img{
+    margin-left: 60px;
     Width: 440px;
     Height: 414px;
     background-image: url(images/Circle\ design.svg);
+    background-size: 90%;
     background-repeat: no-repeat;
 }
 .hidden{
@@ -85,6 +94,7 @@ h3{
     justify-content: center;
     align-items: center;
     margin: 20px;
+    grid-row-gap: 20px;
 }
 
 .middle{
@@ -92,6 +102,8 @@ h3{
     border: 1px solid whitesmoke;
     background-color: #FFFFFF;
     border-radius: 5px;
+    grid-column-gap: 10px;
+    
 }
 .middle img{
 width: 300px;
@@ -104,14 +116,35 @@ top: 2064px;
 }
 .button2{
     align-items: flex-end;
-margin-left: 10px;
-width: 99px;
-height: 24px;
+    margin-left: 10px;
+    width: 99px;
+    height: 24px;
+    text-decoration: none;
+    margin-top: 50px;
 }
 footer{
-    background-color: darkslategray;
-    color: white;
+    background-color: #0A0826;
+    color:#FFFFFF;
     align-items: center;
     text-align: center;
+    margin-top: 50px;
+    
 }
+#footer-style{
+    margin-top: 50px;
+    padding: 25px;
+}
+#icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5px;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
