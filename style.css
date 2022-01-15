@@ -198,5 +198,15 @@ footer{
 .star-flex{
     display: flex;
 }
+@media only screen and (max-width: 576px) {
+    .top {
+        grid-template-columns: repeat(1fr);
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .photo {
+        grid-template-columns: repeat(1fr);
+    }
+  }
 
 
