@@ -19,11 +19,15 @@ h1{
     font-size: 3em;
 }
 a{
-    padding: 16px;
+    padding: 5px;
     font-size: 16px;
     font-weight: 700;
+    text-decoration: none;
 }
 .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     justify-content: space-between;
 }
 .list li{
@@ -42,6 +46,16 @@ a{
     border: 1 solid whitesmoke;
     background-color: #E02C6D;
     border-radius: 35px;
+    color: antiquewhite;
+    margin-top: 50px;
+    padding: 10px;
+    text-decoration: none;
+}
+.button3{
+    height: 25px;
+    width: 50px;
+    border: 1 solid whitesmoke;
+    background-color: #E02C6D;
     color: antiquewhite;
     margin-top: 50px;
     padding: 10px;
@@ -98,6 +112,8 @@ h3{
 }
 
 .middle{
+    width: 329px;
+    height: 476px;
     padding-left: 10px;
     border: 1px solid whitesmoke;
     background-color: #FFFFFF;
@@ -147,6 +163,29 @@ footer{
 }
 .right{
     text-align: right;
+    margin-right: 100px;
+}
+.creative{
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 30px;
+    padding: 30px;
+
+}
+.creative img{
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    border: whitesmoke;
+}
+.creative.creative-position{
+    margin: 50px;
+    padding: 50px;
 }
 
 
