@@ -14,6 +14,10 @@ body{
 }
 h1{
     font-size: 3em;
+
+}
+.list{
+    justify-content: space-between;
 }
 .list li{
     display:inline-flex;
@@ -34,15 +38,18 @@ h1{
 .top{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin-top: 50px;
     width: 100%;
 }
 .top-sub{
     margin-left: 25px;
+    margin-bottom: 40px;
+    
 }
 .top-sub img{
     Width: 440px;
     Height: 414px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
 }
 .hidden{
     display: flex;
@@ -60,3 +67,23 @@ h3{
     border: 1px solid whitesmoke;
     background-color: #FFFFFF;
 }
+.fas{
+    color: gold;
+}
+.photo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:20px;
+}
+.middle{
+    border: 1px solid whitesmoke;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.middle img{
+width: 300px;
+height: 256px;
+left: 210px;
+top: 2064px;
+}
+
