@@ -115,7 +115,6 @@ h3{
     display: flex;
 }
 .button2{
-    align-items: flex-end;
     margin-left: 10px;
     width: 99px;
     height: 24px;
@@ -145,6 +144,9 @@ footer{
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+}
+.right{
+    text-align: right;
 }
 
 
