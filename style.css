@@ -95,9 +95,6 @@ a{
 h3{
     text-align: center;
 }
-.fas fa-arrow-right{
-    color: white;
-}
 .fa-star{
     color: gold;
 }
@@ -127,8 +124,9 @@ h3{
     left: 210px;
     top: 2064px;
 }
-.images-rating{
-    margin-left: 10px;
+.images-ratings{
+    display: flex;
+    justify-content: space-between;
 }
 .button2{
     margin-left: 10px;
@@ -159,7 +157,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
 }
 .right{
     text-align: right;
@@ -192,11 +189,11 @@ footer{
     margin-left: 15px;
     margin-top: 17px;
 }
-.fas fa-search{
+.fa-search{
     margin-left: 15px;
 }
-.star-flex{
-    display: flex;
+.fa-shopping-cart{
+    margin-left: 15px;
 }
 @media only screen and (max-width: 576px) {
     .top {
