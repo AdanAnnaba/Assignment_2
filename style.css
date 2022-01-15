@@ -106,10 +106,10 @@ h3{
     
 }
 .middle img{
-width: 300px;
-height: 256px;
-left: 210px;
-top: 2064px;
+    width: 300px;
+    height: 256px;
+    left: 210px;
+    top: 2064px;
 }
 .images-rating{
     display: flex;
